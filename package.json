@@ -1,7 +1,7 @@
 {
   "name": "time-tracker",
   "version": "1.0.0",
-  "description": "![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "node:sass": "node-sass scss/main.scss css/style.css -w",
