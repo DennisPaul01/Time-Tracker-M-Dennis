@@ -1,0 +1,33 @@
+/* Variables */
+:root {
+  /* Reset 1rem = 10px */
+  font-size: 10px;
+
+  /* Basic colors */
+  --white: #ffffff;
+  --black: #000000;
+
+  /* Project colors */
+  --yellow: hsl(57, 88%, 58%);
+  --blue: hsl(246, 80%, 60%);
+  --light-orange: hsl(15, 100%, 70%);
+  --soft-blue: hsl(195, 74%, 62%);
+  --light-red: hsl(348, 100%, 68%);
+  --lime-green: hsl(145, 58%, 55%);
+  --violet: hsl(264, 64%, 52%);
+  --soft-orange: hsl(43, 84%, 65%);
+
+  /* Neutrals */
+  --very-dark-blue: hsl(226, 43%, 10%);
+  --dark-blue: hsl(235, 46%, 20%);
+  --normal-blue: #34397b;
+  --desaturated-blue: hsl(235, 45%, 61%);
+  --pale-blue: hsl(236, 100%, 87%);
+
+  /* Layout variables */
+  --content-width: 90rem;
+  --content-padding: 5rem;
+
+  --header-height: 10rem;
+  --keyvisual-height: 60rem;
+}

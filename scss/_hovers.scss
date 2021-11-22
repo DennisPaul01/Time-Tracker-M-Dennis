@@ -1,0 +1,10 @@
+/* Hovers */
+
+@media (hover: hover) {
+  .data-card__info:hover {
+    background-color: var(--normal-blue);
+  }
+  .cta ul li:hover {
+    color: var(--white);
+  }
+}
