@@ -8,9 +8,8 @@
     "devserver": "live-server",
     "start": "npm-run-all --parallel node:sass devserver",
     "scss-compile": "node-sass scss/main.scss css/style.comp.css",
-    "concat:css": "css-concat css/style.comp.css css/style.concat.css",
-    "compress-css": "cleancss -o css/style.css css/style.concat.css",
-    "build": "npm-run-all scss-compile concat:css compress-css"
+    "compress-css": "cleancss -o css/style.css css/style.comp.css",
+    "build": "npm-run-all scss-compile  compress-css"
   },
   "author": "",
   "license": "ISC",
